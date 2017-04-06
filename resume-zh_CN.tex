@@ -1,0 +1,82 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{陈\ \ 斌}
+
+\basicInfo{
+  \email{chenb19870707@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 132-0714-3332} \textperiodcentered\ }
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{武汉理工大学}}{2010 -- 2013}
+\textit{硕士}\ 计算机科学与技术
+\datedsubsection{\textbf{武汉理工大学}}{2006 -- 2010}
+\textit{学士}\ 计算机科学与技术
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{微软亚太研发集团}  （上海）}{2012年3月 -- 2012年12月}
+\role{SDE Intern}{实习}
+\begin{itemize}
+  \item 参与xbox\ 全球支付系统本地化项目
+  \item 参与开发了自动化工具的开发、release BUG Fix、版本同步等
+  \item winphone小游戏
+\end{itemize}
+
+\datedsubsection{\textbf{武汉风行在线技术有限公司}  （武汉）}{2013年3月 -- 2015年10月}
+\role{Linux c++ 高级工程师}{参股游戏创业}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 创业性质参加了2D策略类卡牌自研游戏完美神话，巅峰月流水70W，上架appstore和各大安卓市场，巅峰50多个区，前期担任服务端开发工程师，参与了卡牌、技能、战斗、工会、聊天等核心功能的开发，后期带领团队负责服务器调优和各大平台的接入，做到16G内存单机开服10组，国内各大安卓市场基本全部接入。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{北京腾米尼科技有限公司} （武汉）}{2015 年10月 -- 至今}
+\role{后台组主管}{技术创业}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 技术入股创业，担任后台与服务器组leader，负责服务器端架构设计，重构技术框架与数据，核心功能设计，需求分析、srum制定、管理和推进，服务器管理与运维。 
+由于原后台不稳定，接手项目带领团队采用腾讯的TAF框架重写了所以的API，并对原跑步大数据进行了分库、缓存和优化，使得app的稳定性和日活大幅度提高； 
+带领后台团队设计了和开发了附近的跑友陪跑、线上马拉松、积分商城、企业跑团、城市坐标赛等核心功能，坚持践行敏捷开发管理。 
+引入GTest和GMock单元测试框架和fitnesse集成测试框架。
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 4年linux服务器端开发经验，关注分布式系统、高并发框架；
+  \item 精通C/C++，熟悉nodejs，熟悉常见的数据结构与算法，熟悉面向对象技术，熟悉常见的设计模式；
+  \item 熟悉TCP/IP协议相关知识及socket编程；
+  \item 熟悉MySQL/Redis，了解数据库设计、优化、调试、调优；
+  \item 熟悉Srum敏捷开发流程，具有很好的团队合作精神；
+\end{itemize}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://blog.csdn.net/chen19870707
+  \item GitHub: https://github.com/
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
